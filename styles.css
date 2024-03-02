@@ -86,7 +86,7 @@ body{
 }
 
 .menu:hover {
-    width: 340px;
+    width: 380px;
 }
 
 .menu a {
@@ -112,6 +112,11 @@ body{
 
 .footer {
     grid-area: footer;
+}
+
+.marquee{
+    width: 100% !important;
+    position: relative;
 }
 
 @font-face {
