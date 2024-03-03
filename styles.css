@@ -36,6 +36,7 @@ body{
             'footer';
     }
     .menu {
+        background-color: #000000 !important;
         width: 100% !important;
     }
     #logo {
@@ -81,19 +82,20 @@ body{
     font-size: 45px;
     font-family: 'zx_spectrum';
     overflow: hidden;
-    transition: width 0.2s ease;
     white-space: nowrap;
+    transition: width 0.3s ease, background-color 0.1s ease;
 }
 
 .menu:hover {
     width: 380px;
+    background-color: #000000;
 }
 
 .menu a {
     display: block;
     padding: 15px 0px 15px 0px;
     text-decoration: none;
-    color: #333;
+    color: #dadada;
     transition: transform 0.3s ease;
 }
 
@@ -110,6 +112,15 @@ body{
     grid-area: right;
 }
 
+.right img {
+    transition: transform 0.3s ease;
+}
+
+.right img:hover {
+    transform: scale(2);
+    border: 2px solid #007bff; 
+}
+
 .footer {
     grid-area: footer;
 }
@@ -117,6 +128,22 @@ body{
 .marquee{
     width: 100% !important;
     position: relative;
+}
+
+#Home-icon, #Peripherials-icon {
+    color: #00a7e1;
+}
+
+#Zx-Spectrum-icon, #Fun-facts-icon {
+    color: #3d9b00;
+}
+
+#Software-icon, #History-icon {
+    color: #ffc610;
+}
+
+#Creators-icon {
+    color: #ff2020;
 }
 
 @font-face {
