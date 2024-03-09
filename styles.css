@@ -106,6 +106,7 @@ body{
 .main {
     grid-area: main;
     font-size: 30px;
+	padding: 20px;
 }
 
 .right {
@@ -114,11 +115,13 @@ body{
 
 .right img {
     transition: transform 0.3s ease;
+	width: 50%;
 }
 
 .right img:hover {
     transform: scale(2);
     border: 2px solid #007bff; 
+	background-color: red;
 }
 
 .footer {
