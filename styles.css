@@ -111,17 +111,22 @@ body{
 
 .right {
     grid-area: right;
+    padding-top: 60px;
+    padding-bottom: 80px;
 }
 
-.right img {
+.right img{
     transition: transform 0.3s ease;
 	width: 50%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .right img:hover {
     transform: scale(2);
-    border: 2px solid #007bff; 
-	background-color: red;
+    padding: 0px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .footer {
