@@ -106,7 +106,7 @@ body{
 .main {
     grid-area: main;
     font-size: 2.5em;
-	padding: 20px;
+	padding: 40px;
     text-align: start !important;
     overflow-y: auto;
 }
@@ -128,7 +128,7 @@ body{
     font-size: 1.5em;
 }
 
-.right img{
+.right img {
     transition: transform 0.3s ease;
 	width: 70%;
     padding-top: 25px;
@@ -140,6 +140,10 @@ body{
     padding: 0px;
     padding-top: 25px;
     padding-bottom: 25px;
+}
+
+.right iframe {
+    padding: 10px;
 }
 
 .footer {
@@ -155,7 +159,7 @@ body{
     color: #3d9b00;
 }
 
-#Software-icon, #History-icon {
+#Software-icon, #Video-icon {
     color: #ffc610;
 }
 
