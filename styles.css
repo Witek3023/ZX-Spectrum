@@ -29,6 +29,7 @@ body{
 
 @media screen and (max-width: 600px) {
     .grid-container {
+        height: 100%; 
         grid-template-areas:
             'header'
             'menu'
@@ -114,6 +115,10 @@ body{
 
 .main h1,h2{
     text-align: center;
+}
+
+td {
+    padding-right: 20px;
 }
 
 .right {
