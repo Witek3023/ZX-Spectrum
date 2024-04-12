@@ -1,1 +1,1 @@
- https://witek3023.github.io/ZX-Spectrum/
+ https://witek3023.github.io/zx-spectrum/
